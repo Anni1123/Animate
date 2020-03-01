@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     public void fade(View view){
         ImageView bart=(ImageView)findViewById(R.id.fades);
         //ImageView bart1=(ImageView)findViewById(R.id.fades2);
-        bart.animate().translationXBy(1000f).translationYBy(1000f).rotationBy(3600).setDuration(2000);
+        bart.animate().translationXBy(1000f).translationYBy(1000f).rotationBy(360).setDuration(2000);
         //bart1.animate().alpha(1f).setDuration(2000);
 
     }
