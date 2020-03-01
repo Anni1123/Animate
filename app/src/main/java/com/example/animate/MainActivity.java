@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ImageView bart=(ImageView)findViewById(R.id.fades);
-        bart.setTranslationX(-2000f);
-        bart.setTranslationY(-2000f);
+        bart.setTranslationX(-1000f);
+        bart.setTranslationY(-1000f);
 
     }
 
